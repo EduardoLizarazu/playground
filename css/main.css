@@ -1,0 +1,25 @@
+/* GLOBALES */
+:root {
+    --Fuente1: 'Lato', sans-serif;
+    --Fuente2:'Oswald', sans-serif;
+    --primary-color: #333333;
+    --secundary-color:#8841DA;
+    --light-color: #fff;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--Fuente2);
+    font-size: 1.6rem;
+}
+
+/* HEADER - GLOBAL */
+header {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+}
