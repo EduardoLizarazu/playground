@@ -68,26 +68,33 @@ header .nav-container {
     background-position: center;
     background-repeat: no-repeat;
     display: grid;
+    grid-template-columns: 1fr minmax(min-content, 400px) 1fr;
     grid-template-rows: 50px repeat(4, 1fr);
-    grid-template-columns: repeat(4, 1fr);
     text-align: center;
     color: var(--light-color);
 }
 .popular-game h2 {
-    margin: auto;
+    margin-top: 40px;
     grid-row: 2 / 3;
-    grid-column: 2 / 4;
+    grid-column: 2 / 3;
 }
 .popular-game h1 {
     grid-row: 3 / 4;
-    grid-column: 1 / 5;
+    grid-column: 2 / 3;
 }
 .popular-game p {
     grid-row: 4 / 5;
-    grid-column: 1 / 5;
+    grid-column: 1 / 4;
 }
 .more-information {
-    grid-column: 1 / 3;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
     grid-row: 5 / 6;
-    text-align: center;
+    grid-column: 1 / 3;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.more-information span {
+    padding-right: 20px;
 }
