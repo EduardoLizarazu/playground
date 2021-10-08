@@ -60,15 +60,17 @@ header .nav-container {
 }
 
 /* SECTION */
+.bg-cyberpunk-2077 {
+    background-image: url("../assets/img/cyberpunk-2077.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .popular-game {
     margin-top: 30px;
     margin: 0 auto;
     width: 100%;
     max-width: 900px;
     height: 400px;
-    background-image: url("../assets/img/cyberpunk-2077.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
     text-align: center;
     color: var(--light-color);
 }
@@ -91,7 +93,7 @@ header .nav-container {
 .popular-game h1 {
     text-transform: uppercase;
 }
-
+/* MORE-INFORMATION */
 .more-information {
     text-align: start;
     margin-left: 10px;
