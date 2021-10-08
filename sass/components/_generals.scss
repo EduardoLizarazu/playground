@@ -1,3 +1,12 @@
+@mixin bg-img($url) {
+    background-image: url($url);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 $Fuente1: 'Lato', sans-serif;
 $Fuente2: 'Oswald', sans-serif;
 $primary-color: #333333;

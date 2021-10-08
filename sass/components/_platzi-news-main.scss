@@ -1,14 +1,12 @@
-.bg-cyberpunk-2077 {
-    background-image: url("../assets/img/cyberpunk-2077.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+main .bg-cyberpunk-2077 {
+    margin-top: 30px;
+   @include bg-img("../assets/img/cyberpunk-2077.jpg");
 }
 .popular-game {
-    margin-top: 30px;
     margin: 0 auto;
     width: 100%;
     max-width: 900px;
-    height: 400px;
+    height: 500px;
     text-align: center;
     color: $light-color;
     .game-text {
@@ -19,6 +17,7 @@
         height: 90%;
         width: 100%;
         max-width: 500px;
+        margin: 0 auto;
         h2 {
             display: inline-block;
             padding: 3px;
@@ -26,7 +25,11 @@
             background-color: $secundary-color;
         }
         h1 {
+            margin-top: 20px;
             text-transform: uppercase;
+        }
+        p{
+            margin-top: 20px;
         }
     }
 }
@@ -36,4 +39,8 @@
     span {
         margin-right: 5px;
     }
+}
+
+.bg-2 {
+    @include bg-img("../assets/img/rdr2.jpg");
 }
