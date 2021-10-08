@@ -75,11 +75,14 @@ header .nav-container {
     color: var(--light-color);
 }
 .popular-game h2 {
+    text-transform: uppercase;
     margin-top: 40px;
     grid-row: 2 / 3;
     grid-column: 2 / 3;
+    background-color: var(--secundary-color);
 }
 .popular-game h1 {
+    text-transform: uppercase;
     grid-row: 3 / 4;
     grid-column: 2 / 3;
 }
