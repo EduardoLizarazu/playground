@@ -1,0 +1,22 @@
+$Fuente1: 'Lato', sans-serif;
+$Fuente2: 'Oswald', sans-serif;
+$primary-color: #333333;
+$secundary-color:#8841DA;
+$light-color: #fff;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: var(--Fuente2);
+    font-size: 1.6rem;
+}
+a {
+    text-decoration: none;
+    color: $primary-color;
+}
