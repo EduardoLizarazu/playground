@@ -71,35 +71,31 @@ header .nav-container {
     background-repeat: no-repeat;
     text-align: center;
     color: var(--light-color);
-    display: grid;
-    grid-template-columns: 1fr minmax(min-content, 400px) 1fr;
-    grid-template-rows: 50px repeat(4, 1fr);
+}
+.game-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
 }
 .popular-game h2 {
+    display: inline-block;
+    padding: 3px;
     text-transform: uppercase;
-    margin-top: 40px;
-    grid-row: 2 / 3;
-    grid-column: 2 / 3;
     background-color: var(--secundary-color);
 }
 .popular-game h1 {
     text-transform: uppercase;
-    grid-row: 3 / 4;
-    grid-column: 2 / 3;
 }
-.popular-game p {
-    grid-row: 4 / 5;
-    grid-column: 1 / 4;
-}
+
 .more-information {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    grid-row: 5 / 6;
-    grid-column: 1 / 3;
-    margin-left: 15px;
-    margin-bottom: 10px;
+    text-align: start;
+    margin-left: 10px;
 }
 .more-information span {
-    padding-right: 20px;
+    margin-right: 5px;
 }
