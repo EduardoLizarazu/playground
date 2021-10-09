@@ -9,6 +9,7 @@ main .bg-cyberpunk-2077 {
     height: 500px;
     text-align: center;
     color: $light-color;
+    @include experiment;
     .game-text {
         display: flex;
         flex-direction: column;
