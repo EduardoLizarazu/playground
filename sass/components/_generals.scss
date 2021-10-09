@@ -5,15 +5,9 @@
     background-size: cover;
 }
 
-@mixin experiment {
-    margin: 0 auto;
+@mixin article-card {
     margin-bottom: 20px;
     width: 90%;
-    max-width: 900px;
-    height: 500px;
-    text-align: center;
-    color: #fff;
-    padding: 0 0px;
     border-radius: 5%;
     padding: 0 15px;
 }

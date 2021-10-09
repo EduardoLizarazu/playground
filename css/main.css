@@ -75,6 +75,10 @@ main .bg-cyberpunk-2077 {
   background-size: cover;
 }
 
+main .bg-cyberpunk-2077::before {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 .popular-game {
   margin: 0 auto;
   width: 100%;
@@ -82,14 +86,8 @@ main .bg-cyberpunk-2077 {
   height: 500px;
   text-align: center;
   color: #fff;
-  margin: 0 auto;
   margin-bottom: 20px;
   width: 90%;
-  max-width: 900px;
-  height: 500px;
-  text-align: center;
-  color: #fff;
-  padding: 0 0px;
   border-radius: 5%;
   padding: 0 15px;
 }
@@ -132,6 +130,9 @@ main .bg-cyberpunk-2077 {
 }
 .more-information span {
   margin-right: 5px;
+}
+.more-information span img {
+  width: 25px;
 }
 
 .bg-2 {
