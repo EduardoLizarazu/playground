@@ -3,9 +3,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+@mixin box-shadow {
     box-shadow: 10px 10px 20px 5px rgb(0 0 0 / 70%);
 }
-
 @mixin article-card {
     margin-bottom: 20px;
     width: 90%;

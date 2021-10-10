@@ -1,6 +1,7 @@
 main .bg-cyberpunk-2077 {
     margin-top: 30px;
    @include bg-img("../assets/img/cyberpunk-2077.jpg");
+   @include box-shadow;
 }
 
 .popular-game {
@@ -47,6 +48,7 @@ main .bg-cyberpunk-2077 {
 
 .bg-2 {
     @include bg-img("../assets/img/rdr2.jpg");
+    @include box-shadow;
 }
 
 // NUEVO TEMA
@@ -58,9 +60,9 @@ main .bg-cyberpunk-2077 {
     background-color: $secundary-color;
     @include article-card;
     padding: 40px;
-
     font-family: $Fuente1;
     line-height: 3rem;
+    @include box-shadow;
     h2 {
         font-size: 2rem;
         text-transform: uppercase;
