@@ -73,8 +73,8 @@ main .bg-cyberpunk-2077 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-box-shadow: 5px 7px 20px 5px rgba(0, 0, 0, 0.7);
-          box-shadow: 5px 7px 20px 5px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
+          box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
 }
 
 .popular-game {
@@ -138,6 +138,6 @@ main .bg-cyberpunk-2077 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-box-shadow: 5px 7px 20px 5px rgba(0, 0, 0, 0.7);
-          box-shadow: 5px 7px 20px 5px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
+          box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
 }
