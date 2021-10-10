@@ -284,5 +284,6 @@ main .bg-cyberpunk-2077 {
   grid-row: 2/4;
 }
 .outstanding-news .outstanding-news-list li {
+  font-weight: 500;
   padding: 10px;
 }
