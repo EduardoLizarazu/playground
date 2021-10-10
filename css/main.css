@@ -152,4 +152,15 @@ main .bg-cyberpunk-2077 {
   border-radius: 15px;
   padding: 0 15px;
   padding: 40px;
+  font-family: "Lato", sans-serif;
+  line-height: 3rem;
+}
+.popular-game--new h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.popular-game--new p {
+  font-size: 1.7rem;
+  font-weight: 500;
 }

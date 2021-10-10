@@ -58,4 +58,16 @@ main .bg-cyberpunk-2077 {
     background-color: $secundary-color;
     @include article-card;
     padding: 40px;
+
+    font-family: $Fuente1;
+    line-height: 3rem;
+    h2 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    p {
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
 }
