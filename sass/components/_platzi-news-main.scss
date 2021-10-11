@@ -1,13 +1,10 @@
 main .bg-cyberpunk-2077 {
     margin-top: 30px;
    @include bg-img("../assets/img/cyberpunk-2077.jpg");
-   @include box-shadow;
 }
 
 .popular-game {
-    margin: 0 auto;
     max-width: 900px;
-    height: 500px;
     text-align: center;
     color: $light-color;
     @include article-card;
