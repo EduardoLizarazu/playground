@@ -127,6 +127,9 @@ header .nav-container a {
   -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
           box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
 }
+.bg-ps4--top .game-text h2 {
+  padding: 0 15px;
+}
 
 .bg-switch--down {
   background-image: url("../assets/img/zelda-2.jpg");
@@ -135,6 +138,9 @@ header .nav-container a {
   background-size: cover;
   -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
           box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
+}
+.bg-switch--down .game-text h2 {
+  padding: 0 15px;
 }
 
 .bg-ps4--down {
@@ -145,6 +151,9 @@ header .nav-container a {
   -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
           box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
 }
+.bg-ps4--down .game-text h2 {
+  padding: 0 15px;
+}
 
 .bg-fortnie--down {
   background-image: url("../assets/img/fortnite-2.jpg");
@@ -154,6 +163,9 @@ header .nav-container a {
   -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
           box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
 }
+.bg-fortnie--down .game-text h2 {
+  padding: 0 15px;
+}
 
 .bg-xbox--down {
   background-image: url("../assets/img/xbox-2.jpg");
@@ -162,6 +174,9 @@ header .nav-container a {
   background-size: cover;
   -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
           box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
+}
+.bg-xbox--down .game-text h2 {
+  padding: 0 15px;
 }
 
 .more-information {

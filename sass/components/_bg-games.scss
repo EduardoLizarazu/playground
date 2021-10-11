@@ -4,16 +4,31 @@
 }
 .bg-ps4--top {
     @include bg-img("../assets/img/rdr2.jpg");
+    .game-text h2 {
+        padding: 0 15px;
+    }
 }
 .bg-switch--down {
     @include bg-img("../assets/img/zelda-2.jpg");
+    .game-text h2 {
+        padding: 0 15px;
+    }
 }
 .bg-ps4--down {
     @include bg-img("../assets/img/final-fantasy-2.jpg");
+    .game-text h2 {
+        padding: 0 15px;
+    }
 }
 .bg-fortnie--down {
     @include bg-img("../assets/img/fortnite-2.jpg");
+    .game-text h2 {
+        padding: 0 15px;
+    }
 }
 .bg-xbox--down {
     @include bg-img("../assets/img/xbox-2.jpg");
+    .game-text h2 {
+        padding: 0 15px;
+    }
 }
