@@ -109,7 +109,7 @@ header .nav-container a {
   margin-top: 20px;
 }
 
-.bg-cyberpunk-2077 {
+.bg-breaking {
   margin-top: 30px;
   background-image: url("../assets/img/cyberpunk-2077.jpg");
   background-position: center;
@@ -119,8 +119,44 @@ header .nav-container a {
           box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
 }
 
-.bg-2 {
+.bg-ps4--top {
   background-image: url("../assets/img/rdr2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
+          box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
+}
+
+.bg-switch--down {
+  background-image: url("../assets/img/zelda-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
+          box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
+}
+
+.bg-ps4--down {
+  background-image: url("../assets/img/final-fantasy-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
+          box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
+}
+
+.bg-fortnie--down {
+  background-image: url("../assets/img/fortnite-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
+          box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
+}
+
+.bg-xbox--down {
+  background-image: url("../assets/img/xbox-2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
