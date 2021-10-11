@@ -9,13 +9,13 @@
     box-shadow: 10px 10px 20px 5px rgb(0 0 0 / 70%);
 }
 @mixin article-card {
-    margin: 0 auto;
+    width: 90%;
     max-width: 425px;
     height: 500px;
+    margin: 0 auto;
     margin-bottom: 20px;
-    width: 90%;
-    border-radius: 15px;
     padding: 0 15px;
+    border-radius: 15px;
 }
 
 

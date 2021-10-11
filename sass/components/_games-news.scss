@@ -1,0 +1,44 @@
+// NOTICIAS DESTACADAS
+.outstanding-news {
+    color: $primary-color;
+    background-color: $light-color;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 50px 1fr 1fr;
+    font-family: $Fuente1;
+    line-height: 3rem;
+    @include article-card;
+    @include box-shadow;
+    h2 {
+        grid-column: 1 / 5;
+        grid-row: 1 / 2;
+        padding-top: 15px;
+        text-align: center;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .outstanding-news-list {
+        grid-column: 1 / 5;
+        grid-row: 2 / 4;
+        display: grid;
+        grid-template-columns: 1fr 200px 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        li {
+            grid-column: 2 / 4;
+            font-weight: 500;
+            align-self: center;
+            padding: 0 15px;
+            width: 100%;
+        }
+        li:nth-child(1) {
+            grid-row: 1 / 2;
+        }
+        li:nth-child(2) {
+            grid-row: 2 / 3;
+        }
+        li:nth-child(3) {
+            grid-row: 3 / 4;
+        }
+    }
+}
