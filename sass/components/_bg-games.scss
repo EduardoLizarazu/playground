@@ -1,0 +1,7 @@
+.bg-cyberpunk-2077 {
+    margin-top: 30px;
+   @include bg-img("../assets/img/cyberpunk-2077.jpg");
+}
+.bg-2 {
+    @include bg-img("../assets/img/rdr2.jpg");
+}

@@ -67,27 +67,16 @@ header .nav-container a {
   width: 15px;
 }
 
-main .bg-cyberpunk-2077 {
-  margin-top: 30px;
-  background-image: url("../assets/img/cyberpunk-2077.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
-          box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
-}
-
 .popular-game {
-  max-width: 900px;
   text-align: center;
   color: #fff;
-  margin: 0 auto;
+  width: 90%;
   max-width: 425px;
   height: 500px;
+  margin: 0 auto;
   margin-bottom: 20px;
-  width: 90%;
-  border-radius: 15px;
   padding: 0 15px;
+  border-radius: 15px;
 }
 .popular-game .game-text {
   display: -webkit-box;
@@ -103,10 +92,8 @@ main .bg-cyberpunk-2077 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 90%;
   width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
+  height: 90%;
 }
 .popular-game .game-text h2 {
   display: inline-block;
@@ -122,6 +109,25 @@ main .bg-cyberpunk-2077 {
   margin-top: 20px;
 }
 
+.bg-cyberpunk-2077 {
+  margin-top: 30px;
+  background-image: url("../assets/img/cyberpunk-2077.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
+          box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
+}
+
+.bg-2 {
+  background-image: url("../assets/img/rdr2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
+          box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
+}
+
 .more-information {
   text-align: start;
   margin-left: 10px;
@@ -133,74 +139,26 @@ main .bg-cyberpunk-2077 {
   width: 25px;
 }
 
-.bg-2 {
-  background-image: url("../assets/img/rdr2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
-          box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
-  box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
-}
-
-.popular-game--new {
-  color: #fff;
-  background-color: #8841DA;
-  margin: 0 auto;
-  max-width: 425px;
-  height: 500px;
-  margin-bottom: 20px;
-  width: 90%;
-  border-radius: 15px;
-  padding: 0 15px;
-  padding: 40px;
-  font-family: "Lato", sans-serif;
-  line-height: 3rem;
-  -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
-          box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
-}
-.popular-game--new h2 {
-  font-size: 2rem;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-.popular-game--new p {
-  font-size: 1.7rem;
-  font-weight: 500;
-}
-.popular-game--new .button {
-  margin-top: 20px;
-  text-transform: uppercase;
-}
-.popular-game--new .button a {
-  font-weight: bold;
-  font-size: 2.3rem;
-  color: #fff;
-  padding: 10px;
-  border: 3px solid #fff;
-}
-
 .outstanding-news {
   color: #333333;
   background-color: #fff;
-  margin: 0 auto;
-  max-width: 425px;
-  height: 500px;
-  margin-bottom: 20px;
-  width: 90%;
-  border-radius: 15px;
-  padding: 0 15px;
-  font-family: "Lato", sans-serif;
-  line-height: 3rem;
-  -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
-          box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
-  padding-top: 15px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 2fr 2fr 1fr;
   grid-template-columns: 1fr 2fr 2fr 1fr;
   -ms-grid-rows: 50px 1fr 1fr;
   grid-template-rows: 50px 1fr 1fr;
+  font-family: "Lato", sans-serif;
+  line-height: 3rem;
+  width: 90%;
+  max-width: 425px;
+  height: 500px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
+          box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
 }
 
 .outstanding-news > *:nth-child(1) {
@@ -269,6 +227,7 @@ main .bg-cyberpunk-2077 {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;
+  padding-top: 15px;
   text-align: center;
   font-size: 2rem;
   text-transform: uppercase;
@@ -360,4 +319,41 @@ main .bg-cyberpunk-2077 {
   -ms-grid-row: 3;
   -ms-grid-row-span: 1;
   grid-row: 3/4;
+}
+
+.popular-game--new {
+  color: #fff;
+  background-color: #8841DA;
+  width: 90%;
+  max-width: 425px;
+  height: 500px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  border-radius: 15px;
+  padding: 40px;
+  font-family: "Lato", sans-serif;
+  line-height: 3rem;
+  -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
+          box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.7);
+}
+.popular-game--new h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.popular-game--new p {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.popular-game--new .button {
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.popular-game--new .button a {
+  font-weight: bold;
+  font-size: 2.3rem;
+  color: #fff;
+  padding: 10px;
+  border: 3px solid #fff;
 }
